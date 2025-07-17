@@ -58,14 +58,6 @@ git clone https://github.com/RGBCode0/Sistema-Bitacora-java.git
 
 ---
 
-## 📄 Licencia
-
-Este proyecto fue creado con fines educativos y puede ser usado, modificado o compartido libremente.
-
-Licencia: [MIT](LICENSE)
-
----
-
 ## 🙋‍♂️ Autor
 
 Desarrollado por **Rael Gabriel Bautista**  
