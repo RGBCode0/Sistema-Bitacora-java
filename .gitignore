@@ -1,0 +1,55 @@
+# === Java ===
+*.class
+*.jar
+*.war
+*.ear
+*.log
+*.tmp
+*.bak
+*.swp
+*.iml
+
+# === Maven ===
+target/
+build/
+
+# === NetBeans ===
+nbproject/private/
+build/
+dist/
+*.orig
+
+# Evitar subir configuración local de NetBeans
+nbactions.xml
+
+# === IDEs ===
+*.idea/
+*.vscode/
+*.classpath
+*.project
+*.settings/
+
+# === Sistema Operativo ===
+.DS_Store          # macOS
+Thumbs.db          # Windows
+ehthumbs.db        # Windows
+
+# === Archivos ejecutables ===
+*.exe
+*.dll
+*.so
+*.dylib
+
+# === Archivos ZIP o binarios grandes ===
+*.zip
+*.7z
+*.tar
+*.gz
+*.rar
+
+# === Git ===
+*.rej
+*.swo
+*.swn
+*.patch
+*.diff
