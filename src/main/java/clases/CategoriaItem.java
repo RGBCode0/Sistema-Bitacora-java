@@ -14,11 +14,10 @@ public class CategoriaItem {
         this.nombre = nombre;
     }
     
-        public String getNombre() {   // <--- MÉTODO FALTANTE
+        public String getNombre() {
         return nombre;
     }
 
-    
     public int getId() { return id; }
     @Override public String toString() { return nombre; }   // Lo que verá el usuario
     

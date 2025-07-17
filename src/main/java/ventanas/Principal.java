@@ -121,11 +121,11 @@ public final class Principal extends javax.swing.JFrame implements RecargarCateg
     List<RowFilter<DefaultTableModel, Object>> filtros = new ArrayList<>();
 
     if (!titulo.isEmpty()) {
-        filtros.add(RowFilter.regexFilter("(?i)" + Pattern.quote(titulo), 4)); // ✅ columna 4 = Título
+        filtros.add(RowFilter.regexFilter("(?i)" + Pattern.quote(titulo), 4)); // columna 4 = Título
     }
 
     if (seleccion != null && seleccion.getId() != 0) {
-        filtros.add(RowFilter.regexFilter("(?i)" + Pattern.quote(seleccion.getNombre()), 3)); // ✅ columna 3 = Categoría
+        filtros.add(RowFilter.regexFilter("(?i)" + Pattern.quote(seleccion.getNombre()), 3)); // columna 3 = Categoría
     }
 
     if (filtros.isEmpty()) {
@@ -449,7 +449,7 @@ public final class Principal extends javax.swing.JFrame implements RecargarCateg
     }// </editor-fold>//GEN-END:initComponents
 
     private void botonSalirActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_botonSalirActionPerformed
-        System.exit(0);  // TODO add your handling code here:
+        System.exit(0);  
     }//GEN-LAST:event_botonSalirActionPerformed
 
     public static void main(String args[]) {

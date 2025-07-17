@@ -6,8 +6,7 @@ public class Conexion {
 
     public static Connection conectar() {
         try {
-            // Ruta relativa o absoluta al archivo .sqlite o .db
-            String url = "jdbc:sqlite:bd/sistema_progreso.db"; // puede ser "./mi_base.sqlite"
+            String url = "jdbc:sqlite:bd/sistema_progreso.db"; 
             Connection cn = DriverManager.getConnection(url);
             return cn;
         } catch (SQLException e) {

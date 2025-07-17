@@ -16,13 +16,6 @@ public class ComponenteEstrellas {
     private ImageIcon estrellaLlena;
     private int valorSeleccionado = 0;
     private boolean esEditable;
-
-    /**
-     * Constructor
-     *
-     * @param estrellas Arreglo de 5 JLabel donde se mostrarán las estrellas
-     * @param esEditable true si se permite seleccionar la calificación
-     */
     private int anchoIcono;
     private int altoIcono;
 
@@ -97,10 +90,8 @@ public class ComponenteEstrellas {
         return valorSeleccionado;
     }
 
-    /**
+    /*
      * Establece el valor que se debe mostrar (0 a 5).
-     *
-     * @param valor nuevo valor a mostrar
      */
     public void setValor(int valor) {
         this.valorSeleccionado = Math.max(0, Math.min(5, valor));

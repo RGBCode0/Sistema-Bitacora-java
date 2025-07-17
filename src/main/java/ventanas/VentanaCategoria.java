@@ -43,9 +43,9 @@ public class VentanaCategoria extends javax.swing.JFrame {
     tablaCategoria.setModel(modeloTablaCat);
     tablaCategoria.setSelectionMode(ListSelectionModel.SINGLE_SELECTION);
     
-        // 3️⃣  ⬇️ Ocultas la primera columna (ID) —
+     // 3️⃣  ⬇️ Ocultas la primera columna (ID) —
     //     esto debe ir DESPUÉS de setModel, porque ahí es cuando
-    //     el JTable crea su TableColumnModel.
+   //     el JTable crea su TableColumnModel.
     tablaCategoria.getColumnModel().getColumn(0).setMinWidth(0);
     tablaCategoria.getColumnModel().getColumn(0).setMaxWidth(0);
     tablaCategoria.getColumnModel().getColumn(0).setWidth(0);
@@ -244,7 +244,7 @@ private void cargarCategoriasEnTabla() {
     }
 
     if (hayCategorias) {
-        labelMensajeCat.setText(""); // Oculta el mensaje si hay datos
+        labelMensajeCat.setText("");
     } else {
         labelMensajeCat.setText("Sin categorias registradas.");
     }

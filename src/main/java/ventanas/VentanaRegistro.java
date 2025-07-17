@@ -66,7 +66,7 @@ public class VentanaRegistro extends javax.swing.JFrame implements RecargarCateg
         setTitle("Agregar Registro");
         setDefaultCloseOperation(DISPOSE_ON_CLOSE);//no termina completamenente el programa
 
-        // Usa getClass().getResource para rutas dentro de resources
+        // Usar getClass().getResource para rutas dentro de resources
         ImageIcon imagen = new ImageIcon(getClass().getResource("/images/fondo.png"));
         Icon fondo = new ImageIcon(imagen.getImage().getScaledInstance(labelImagen.getWidth(), labelImagen.getHeight(), Image.SCALE_DEFAULT));
         labelImagen.setIcon(fondo);
