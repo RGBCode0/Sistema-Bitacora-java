@@ -13,7 +13,7 @@ Este proyecto consiste en un sistema de bitácoras desarrollado en Java, diseña
 ## 📷 Capturas de pantalla
 ![Pantalla Principal](img/Principal.png)
 ![Formulario de Bitácora](img/Registro.png)
-![Pantalla Descripción](img/Descripcion.pnn)
+![Pantalla Descripción](img/Descripcion.png)
 
 ## 🛠️ Tecnologías utilizadas
 
