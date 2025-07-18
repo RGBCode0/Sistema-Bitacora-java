@@ -8,7 +8,8 @@ Este proyecto consiste en un sistema de bitácoras desarrollado en Java, diseña
 - Facilidad para crear nuevas categorias y registros
 - Almacenamiento de la información en una BD local 
 - Busquedas rapidas de los registros por categoria y por titulo
-- Incluye ejecutable `.exe` y JRE para facilitar la ejecución sin necesidad de tener Java instalado
+- En Releases esta el .zip que incluye el `.exe` y JRE para
+ facilitar la ejecución sin necesidad de tener Java instalado
 
 ## 📷 Capturas de pantalla
 ![Pantalla Principal](img/Principal.png)
