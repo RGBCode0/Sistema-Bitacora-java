@@ -26,7 +26,7 @@ Este proyecto consiste en un sistema de bitácoras desarrollado en Java, diseña
 
 > Si no quieres compilar el código y solo deseas usar el sistema:
 
-🔽 **[Descargar sistema-bitacora.zip desde Releases](https://github.com/RGBCode0/sistema-bitacora/releases/latest)**
+🔽 **[Descargar sistema-bitacora.zip desde Releases](https://github.com/RGBCode0/Sistema-Bitacora-java/releases/download/v1.0.0/sistema-bitacora.zip)**
 
 El ZIP incluye:
 - `sistema-bitacora.exe`
