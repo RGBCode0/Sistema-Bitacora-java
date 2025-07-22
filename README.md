@@ -62,7 +62,7 @@ git clone https://github.com/RGBCode0/Sistema-Bitacora-java.git
 ## 🙋‍♂️ Autor
 
 Desarrollado por **Rael Gabriel Bautista**  
-🔗 [Portafolio Web](https://mistiorgbcode.com)
+🔗 [Portafolio Web](https://github.com/RGBCode0/mi-portafolio)
 
 ---
 Gracias por visitar este proyecto. ¡Cualquier sugerencia, pull request o mejora es bienvenida! 
